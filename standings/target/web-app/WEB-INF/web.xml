@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+  version="2.4">
+
+  <servlet>
+    <servlet-name>add_match</servlet-name>
+    <servlet-class>standings.AddMatch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>add_match</servlet-name>
+    <url-pattern>/add_match</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>register_match</servlet-name>
+    <servlet-class>standings.RegisterMatch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>register_match</servlet-name>
+    <url-pattern>/register_match</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>standings_list</servlet-name>
+    <servlet-class>standings.StandingsList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>standings_list</servlet-name>
+    <url-pattern>/standings_list</url-pattern>
+  </servlet-mapping>
+</web-app>

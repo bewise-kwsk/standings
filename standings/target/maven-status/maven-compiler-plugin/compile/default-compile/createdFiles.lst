@@ -1,0 +1,9 @@
+standings\InvalidMatchParameterException.class
+standings\Standing.class
+standings\MatchDAO.class
+standings\InternalErrorException.class
+standings\DuplicatedMatchException.class
+standings\RegisterMatch.class
+standings\StandingsList.class
+standings\Match.class
+standings\AddMatch.class
